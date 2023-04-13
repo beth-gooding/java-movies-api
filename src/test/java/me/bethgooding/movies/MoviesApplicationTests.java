@@ -1,4 +1,4 @@
-package gooding.beth.movies;
+package me.bethgooding.movies;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
