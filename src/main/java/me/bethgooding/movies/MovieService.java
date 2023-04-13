@@ -17,7 +17,7 @@ public class MovieService {
     }
 
     // The Optional type lets us know that we may return no movie, e.g. if the id is wrong
-    public Optional<Movie> singleMovie(ObjectId id) {
-        return movieRepository.findById(id);
+    public Optional<Movie> singleMovie(String imdbId) {
+        return movieRepository.findMovieByImdbId(imdbId);
     }
 }
